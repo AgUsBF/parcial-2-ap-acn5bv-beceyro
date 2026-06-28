@@ -1,0 +1,8 @@
+# Introducción
+
+En el dominio de atención veterinaria, la información clínica de las mascotas suele estar distribuida en distintos canales no integrados (papel, WhatsApp, correo, fotos, archivos sueltos y reportes en formatos heterogéneos). En entrevistas a 4 dueños y 2 veterinarios se identificaron problemas recurrentes: dificultad para compartir historial completo, necesidad de recordar datos de
+memoria y repetición de estudios por documentación incompleta. Esta situación genera pérdida de trazabilidad, dificulta la continuidad de tratamientos y obliga a dueños y veterinarios a reconstruir antecedentes de forma manual.
+
+La aplicación **AguaraVet** busca resolver este problema centralizando y estandarizando el historial médico de cada mascota en una ficha controlada por el dueño, con trazabilidad (quién y cuándo registró cada dato), permisos de compartición revocables, exportación para backup/portabilidad y una vista resumen clínica que facilite la toma de decisiones y la continuidad del tratamiento.
+
+La herramienta está dirigida inicialmente a dueños de mascotas y veterinarios, en etapas posteriores, se integrarán a laboratorios y clínicas como actores secundarios. El diferencial que se presenta es el control y la portabilidad del historial por parte del propietario (no encerrado en una sola clínica), combinada con trazabilidad y facilidad para compartir con distintos profesionales.
