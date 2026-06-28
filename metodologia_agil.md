@@ -21,18 +21,18 @@ Para visualizar el estado del proyecto en *Jira*, se utiliza un tablero con las 
 Considerando que el proyecto es unipersonal, se eliminan las reuniones grupales pero se mantiene la disciplina/ceremonias de manera personal:
 
 - Planificación del *Sprint* (2 semanas):
-    - Al inicio de cada iteración.
-    - Seleccionar un conjunto de historias de usuario del backlog para desarrollar.
-    - Definir la meta del *Sprint*.
+  - Al inicio de cada iteración.
+  - Seleccionar un conjunto de historias de usuario del backlog para desarrollar.
+  - Definir la meta del *Sprint*.
 - Monitoreo diario, se debe hacer un auto-chequeo rápido frente al tablero:
-    - ¿Qué hice ayer?
-    - ¿En qué voy a trabajar hoy?
-    - ¿Tengo algún bloqueo técnico?
+  - ¿Qué hice ayer?
+  - ¿En qué voy a trabajar hoy?
+  - ¿Tengo algún bloqueo técnico?
 - Autorevisión y Retrospectiva:
-    - Al finalizar cada sprint.
-    - Ejecutar y verificar que el software realmente cumpla con los criterios de aceptación de las historias de usuario del sprint.
-    - Evaluar qué herramientas o flujos técnicos funcionaron bien y cuáles causaron retrasos.
-    - Ajustar estimaciones de esfuerzo para el siguiente sprint.
+  - Al finalizar cada sprint.
+  - Ejecutar y verificar que el software realmente cumpla con los criterios de aceptación de las historias de usuario del sprint.
+  - Evaluar qué herramientas o flujos técnicos funcionaron bien y cuáles causaron retrasos.
+  - Ajustar estimaciones de esfuerzo para el siguiente sprint.
 
 El análisis y monitoreo del flujo de trabajo se plantea utilizando dos métricas clave de Kanban:
 
