@@ -1,6 +1,6 @@
 # Planificación del Proyecto
 
-En esta sección se presenta el desglose estructurado del proyecto en componentes ágiles (Épicas, Historias de Usuario y Tareas), garantizando la trazabilidad con los Requerimientos Funcionales (RF), Requerimientos No Funcionales (RNF) y Casos de Uso (CU).
+En esta sección se presenta el desglose estructurado del proyecto en componentes ágiles (Épicas, Historias de Usuario y Tareas), garantizando la trazabilidad con los Requerimientos Funcionales (RF), Requerimientos No Funcionales (RNF) y Casos de Uso (CU). Esto se puede ver plasmado en un tablero elaborado en [Jira (acceder)](https://davinci-team-ok755als.atlassian.net/jira/software/projects/AG/boards/2).
 
 ## Épica 1: Gestión de Usuarios
 
