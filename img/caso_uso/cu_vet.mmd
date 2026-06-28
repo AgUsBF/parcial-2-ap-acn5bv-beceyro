@@ -1,0 +1,52 @@
+graph LR
+    %% Definición de Actores
+    %% U[Usuario]
+    %% P[Propietario]
+    %% PP[Propietario Principal]
+    V[Veterinario]
+    %% A[Administrador]
+
+    %% Herencia / Generalización de Actores
+    %% P -.-> U
+    %% PP -.-> P
+    %% V -.-> U
+
+    subgraph AguaraVet ["Sistema AguaraVet"]
+        %% CU1("(CU1) Registro de usuario")
+        %% CU2("(CU2) Login y logout")
+        %% CU3("(CU3) Alta y gestión de mascota")
+        CU4("(CU4) Registro de evento clínico")
+        %% CU5("(CU5) Compartir acceso con veterinario")
+        CU6("(CU6) Aceptación de invitación y Portal Médico")
+        CU7("(CU7) Exportar historial clínico")
+        CU8("(CU8) Ver resumen clínico")
+        %% CU9("(CU9) Acceso y auditoría")
+        CU10("(CU10) Notifición de eventos de un tercero")
+        %% CU11("(CU11) Transferencia de titularidad")
+        %% CU12("(CU12) Gestión de co-propietarios")
+    end
+
+    %% Asociaciones de Actores con Casos de Uso
+    %% U --> CU1
+    %% U --> CU2
+
+    %% P --> CU3
+    %% P --> CU4
+    %% P --> CU5
+    %% P --> CU7
+    %% P --> CU8
+
+    %% PP --> CU11
+    %% PP --> CU12
+
+    V --> CU4
+    V --> CU6
+    V --> CU7
+    V --> CU8
+    CU4 --> CU10
+
+    %% A --> CU9
+
+    %% Inclusiones o Extensiones internas del sistema
+    %% CU10 -.->|"<<include>>"| CU4
+
