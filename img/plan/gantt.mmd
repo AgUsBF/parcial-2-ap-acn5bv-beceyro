@@ -1,0 +1,59 @@
+gantt
+    %% title Planificación de AguaraVet
+    dateFormat  DD-MM-YYYY
+    axisFormat  %d-%m-%y
+    %% tickInterval 1week
+
+    section Preliminares
+    Análisis y relevamiento         :prelim1, 2026-04-01, 30d
+    Definición de requerimientos    :prelim2, after prelim1, 31d
+    Definición de arquitectura      :prelim3, after prelim2, 1w
+    Mockups UX/UI                   :prelim4, after prelim2, 20d
+    Setup                           :prelim5, after prelim4, 10d
+
+    section Épica 1
+    HU 1.1 - Registro de usuarios   :hu1_1, 2026-07-01, 1w
+    HU 1.2 - Gestión de sesión      :hu1_2, after hu1_1, 1w
+    HU 1.3 - Auditoría de accesos   :hu1_3, after hu1_2, 2w
+    
+    section Épica 2
+    HU 2.1 - ABM y perfil de mascota        :hu2_1, after hu1_3, 2w
+    HU 2.2 - Transferencia de titularidad   :hu2_2, after hu2_1, 1w
+    HU 2.3 - Gestión de co-propietarios     :hu2_3, after hu2_2, 2w
+
+    section Épica 3
+    HU 3.1 - ABM de eventos clínicos    :hu3_1, after hu2_3, 2w
+    HU 3.2 - Notificaciones médicas     :hu3_2, after hu3_1, 2w
+
+    section Épica 4
+    HU 4.1 - Compartir historiales clínicos  :hu4_1, after hu3_2, 1w
+    HU 4.2 - Dashboard clínico              :hu4_2, after hu4_1, 2w
+    HU 4.3 - Exportación                    :hu4_3, after hu4_2, 1w
+
+    section Épica 5
+    HU 5.1 - Registro de usuarios (API+Mobile)  :hu5_1, after hu4_3, 1w
+    HU 5.2 - Gestión de sesión (API+Mobile)     :hu5_2, after hu5_1, 1w
+
+    section Épica 6
+    HU 6.1 - ABM y perfil de mascota (API+Mobile)       :hu6_1, after hu5_2, 2w
+    HU 6.2 - Transferencia de titularidad (API+Mobile)  :hu6_2, after hu6_1, 1w
+    HU 6.3 - Gestión de co-propietarios (API+Mobile)    :hu6_3, after hu6_2, 2w
+
+    section Épica 7
+    HU 7.1 - ABM de eventos clínicos (API+Mobile)   :hu7_1, after hu6_3, 2w
+    HU 7.2 - Notificaciones médicas (API+Mobile)    :hu7_2, after hu7_1, 2w
+
+    section Épica 8
+    HU 8.1 - Acceso a historiales clínicos (API+Mobile) :hu8_1, after hu7_2, 1w
+    HU 8.2 - Dashboard clínico (API+Mobile)             :hu8_2, after hu8_1, 2w
+
+    section Pruebas
+    Pruebas Web         :test_web, after hu4_3, 10w
+    Pruebas Mobile      :test_mobile, after hu8_2, 2w
+
+    section Despliegue
+    Depliegue Web       :deploy_web, after test_web, 4w
+    Despliegue Mobile   :deploy_mobile, after test_mobile, 1w
+
+    section Transversal
+    Documentación Técnica Continua                :doc1, 2026-04-01, 49w
