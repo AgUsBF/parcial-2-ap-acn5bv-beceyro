@@ -8,3 +8,4 @@ Proyecto académico en el marco de la materia **Administración de Proyectos** d
 - [**Requerimientos funcionales**](./req_funcionales.md)
 - [**Requerimientos no funcionales**](./req_no_funcionales.md)
 - [**Matriz de Impacto-Esfuerzo**](./matriz_esfuerzo.md)
+- [**Metodología Ágil de Desarrollo**](./metodologia_agil.md)
