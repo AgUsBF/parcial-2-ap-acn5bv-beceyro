@@ -2,4 +2,6 @@
 
 Proyecto académico en el marco de la materia **Administración de Proyectos** de la carrera **Analista de Sistemas** de la **Escuela Da Vinci**. Este repositorio contiene la siguiente documentación:
 
-- [**Introducción**: Descripción general del proyecto](./introduccion.md)
+- [**Introducción**](./introduccion.md)
+- [**Requerimientos funcionales**](./req_funcionales.md)
+- [**Requerimientos no funcionales**](./req_no_funcionales.md)
