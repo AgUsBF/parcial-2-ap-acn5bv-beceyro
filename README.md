@@ -2,12 +2,12 @@
 
 Proyecto académico en el marco de la materia **Administración de Proyectos** de la carrera **Analista de Sistemas** de la **Escuela Da Vinci**. Este repositorio contiene la siguiente documentación:
 
-- [**Introducción**](./introduccion.md)
-- [**Objetivo**](./objetivo.md)
-- [**Análisis de interesados** (stakeholders)](./analisis_interesados.md)
-- [**Requerimientos funcionales**](./req_funcionales.md)
-- [**Requerimientos no funcionales**](./req_no_funcionales.md)
-- [**Matriz de Impacto-Esfuerzo**](./matriz_esfuerzo.md)
-- [**Metodología Ágil de Desarrollo**](./metodologia_agil.md)
-- [**Casos de uso**](./casos_uso.md)
-- [**Planificación**](./planificacion.md)
+- [**Introducción**](./docs/introduccion.md)
+- [**Objetivo**](./docs/objetivo.md)
+- [**Análisis de interesados** (stakeholders)](./docs/analisis_interesados.md)
+- [**Requerimientos funcionales**](./docs/req_funcionales.md)
+- [**Requerimientos no funcionales**](./docs/req_no_funcionales.md)
+- [**Matriz de Impacto-Esfuerzo**](./docs/matriz_esfuerzo.md)
+- [**Metodología Ágil de Desarrollo**](./docs/metodologia_agil.md)
+- [**Casos de uso**](./docs/casos_uso.md)
+- [**Planificación**](./docs/planificacion.md)
