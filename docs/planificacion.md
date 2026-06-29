@@ -2,6 +2,13 @@
 
 En esta sección se presenta el desglose estructurado del proyecto en componentes ágiles (Épicas, Historias de Usuario y Tareas), garantizando la trazabilidad con los Requerimientos Funcionales (RF), Requerimientos No Funcionales (RNF) y Casos de Uso (CU). Esto se puede ver plasmado en un tablero elaborado en [Jira (acceder)](https://davinci-team-ok755als.atlassian.net/jira/software/projects/AG/boards/2).
 
+En el contexto de esta planificación se crearon 4 Hitos que agrupan las épicas descriptas mas abajo de la siguiente manera:
+
+- **Hito-1:** Épica 1 y Épica 2
+- **Hito-2:** Épica 3 y Épica 4
+- **Hito-3:** Épica 5 y Épica 6
+- **Hito-4:** Épica 7 y Épica 8
+
 ## Épica 1: Gestión de Usuarios
 
 ### HU 1.1: Registro de usuarios
